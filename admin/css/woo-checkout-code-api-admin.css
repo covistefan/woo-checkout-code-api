@@ -1,0 +1,100 @@
+ul.tablist::after {
+    content: '';
+    display: table;
+    height: 1px;
+    background: red;
+    clear: both;
+    float: none;
+}
+
+ul.tablist li {
+    float: left;
+    border-bottom: 1px solid #aaa;
+    padding: 10px 15px;
+}
+
+ul.tablist li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul.tablist li:hover {
+    background: #fff;
+}
+
+ul.tablist li.active {
+    background: #aaa;
+    color: #fff;
+}
+
+ul.tablist li.active a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.tablist li.closetabs {
+    float: none;
+    border: none;
+    padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    ul.tablist {
+        max-width: 98%;
+    }
+    
+    ul.tablist li {
+        float: none;
+        clear: both;
+        padding: 10px 15px;
+        margin-bottom: 0px;
+    }
+    
+    
+}
+
+/* META BOX */
+
+#wcca_meta .inside {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wcca_meta table.wcca_codelist {
+    width: 100%;
+    background: #fff;
+}
+
+#wcca_meta table.wcca_codelist thead th {
+    text-align: left;
+    padding: 1em;
+    font-weight: 400;
+    color: #999;
+    background: #f8f8f8;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#wcca_meta table.wcca_codelist thead th:first-child {
+    padding-left: 2em;
+}
+
+#wcca_meta table.wcca_codelist tbody td {
+    text-align: left;
+    padding: 1em;
+    font-weight: 300;
+    color: #999;
+}
+
+#wcca_meta table.wcca_codelist tbody td:first-child {
+    padding-left: 2em;
+}
+
+
+
+
+

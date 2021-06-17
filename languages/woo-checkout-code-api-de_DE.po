@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Code API for Checkout in WooCommerce\n"
+"POT-Creation-Date: 2020-02-26 17:45+0100\n"
+"PO-Revision-Date: 2020-02-26 17:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-checkout-code-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-woo-checkout-code-api-admin.php:112
+msgid "Woo Code API"
+msgstr "Woo Code API"
+
+#: admin/header/plugin-footer.php:6
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/header/plugin-header.php:12
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: admin/header/plugin-header.php:13
+msgid "Getting codes"
+msgstr "Codes abrufen"
+
+#: admin/header/plugin-header.php:14 admin/partials/embed-pref.php:6
+msgid "Embedding preferences"
+msgstr "Einbettung"
+
+#: admin/header/plugin-header.php:15 admin/partials/helpdesc.php:7
+msgid "Helpdesc"
+msgstr "Hilfe"
+
+#: admin/partials/embed-pref.php:7
+msgid "You can define here, which pages/elements will show up the codelist."
+msgstr ""
+"Du kannst hier definieren, auf welchen Seiten die Codeliste angezeigt werden "
+"soll."
+
+#: admin/partials/embed-pref.php:12
+msgid "Successful Checkout"
+msgstr "Kauf abgeschlossen"
+
+#: admin/partials/embed-pref.php:20
+msgid ""
+"Determine whether the code list should be displayed after successful "
+"checkout. The list is only displayed if the status of the order is "
+"`complete`."
+msgstr ""
+"Aktiviere die Anzeige der Codeliste nach erfolgreichem Kauf. Die Liste wird "
+"nur angezeigt, wenn der Status der Bestellung „Abgeschlossen“ ist."
+
+#: admin/partials/embed-pref.php:25
+msgid "Email support"
+msgstr "E-Mail"
+
+#: admin/partials/embed-pref.php:33
+msgid ""
+"Setup whether the code list should be sent by email within the order "
+"confirmation."
+msgstr ""
+"Aktiviere die Anzeige der Codeliste in der Bestätigungs- bzw. Abschlussemail."
+
+#: admin/partials/embed-pref.php:38
+msgid "Override completed"
+msgstr "Übergehe ‚Abgeschlossen‘"
+
+#: admin/partials/embed-pref.php:46
+msgid ""
+"Determine whether the code list should be displayed on the thank you page, "
+"regardless of the further status of the order. Make sure you only offer "
+"payment options that have been successfully completed at this time."
+msgstr ""
+"Aktiviere die Anzeige der Codeliste unabhängig vom Status der Bestellung. "
+"Stelle aber besser sicher, dass zu diesem Zeitpunkt wirklich für die Codes "
+"bezahlt wurdest."
+
+#: admin/partials/embed-pref.php:51
+msgid "Metabox"
+msgstr "Metabox"
+
+#: admin/partials/embed-pref.php:59
+msgid ""
+"Setup whether the code list should be shown in order details page for admin."
+msgstr ""
+"Aktiviere die Anzeige der Codeliste auf der Bestellübersichtsseite im Admin-"
+"Panel."
+
+#: admin/partials/general-settings.php:6
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/partials/general-settings.php:11
+msgid "API usage"
+msgstr "API Benutzung"
+
+#: admin/partials/general-settings.php:20
+msgid "Enable or disable code API usage for WooCommerce Checkout"
+msgstr "Aktiviere/Deaktiviere die Nutzung der Codelist-API für WooCommerce"
+
+#: admin/partials/general-settings.php:26
+msgid "API DEV Mode"
+msgstr "API Entwickler Modus"
+
+#: admin/partials/general-settings.php:35
+msgid ""
+"Enable or disable code API development mode. Development mode will show up "
+"more returning information in admin panel."
+msgstr ""
+"Der API Entwickler Modus bietet die Anzeige weiterer Informationen aus der "
+"Kommunikation zwischen Wordpress und dem API-Server im Admin-Panel."
+
+#: admin/partials/general-settings.php:41
+msgid "Select data submit type"
+msgstr "Wähle, wie die Daten zur API übermittelt werden"
+
+#: admin/partials/general-settings.php:60
+msgid "Choose what method should be used to send data to API"
+msgstr "Wähle, welche Methode benutzt werden soll, um die API anzusprechen"
+
+#: admin/partials/general-settings.php:65
+msgid "Select data submit format"
+msgstr "Wähle das Format, in dem Daten übermittelt werden"
+
+#: admin/partials/general-settings.php:84
+msgid ""
+"POST - data will be submitted as post values, JSON - ONE single string with "
+"a JSON-encoded dataset will be submitted"
+msgstr ""
+"POST-Daten werden als Array übermittelt, JSON-Daten werden vorher per JSON-"
+"Encode verarbeitet und dann als einzelner String geschickt"
+
+#: admin/partials/general-settings.php:89
+msgid "Select data return type"
+msgstr "Wähle den Rückgabetyp der API-Daten"
+
+#: admin/partials/general-settings.php:107
+msgid "Choose what kind of data you expext to be returned from API"
+msgstr "Wähle, welche Daten du als Rückgabe von der API erwartest"
+
+#: admin/partials/helpdesc.php:8
+msgid "How does Woo Code API work?"
+msgstr "Wie arbeitet die Woo Code API?"
+
+#: admin/partials/helpdesc.php:9
+msgid ""
+"Woo Code API submits your product data to an external server you defined in "
+"\"Get Codes\""
+msgstr ""
+"Die Woo Code API übermittelt deine Produktdaten an einen externen Server, "
+"den du im Bereich „Codes abrufen“ definieren kannst."
+
+#: admin/partials/helpdesc.php:10
+msgid "Data submitted"
+msgstr "Daten, die übertragen werden"
+
+#: admin/partials/helpdesc.php:11
+msgid ""
+"If API-Key-Authentification is set, the params <code>api-client</code> and "
+"<code>api-token</code> will be sent as <code>CURLOPT_HTTPHEADER</code> with "
+"their associated data."
+msgstr ""
+"Wenn die API-Schlüssel-Authentifizierung aktiviert ist, werden die Parameter "
+"<code>api-client</code> und <code>api-token</code> als <code>HTTP-Header</"
+"code> mit den entsprechenden Daten übermittelt."
+
+#: admin/partials/helpdesc.php:11
+msgid "If an action param is set, it will be submitted as <code>action</code>."
+msgstr ""
+"Der „API-Aktion“-Parameter wird als <code>action</code>-Variable "
+"mitgeschickt, wenn er gesetzt ist."
+
+#: admin/partials/helpdesc.php:11
+msgid ""
+"For <strong>each</strong> product will be created a single entry. If your "
+"customer bought 2 variants of the same product, 2 codes expected to be "
+"returned."
+msgstr ""
+"Für <strong>jedes</strong> Produkt wird ein einzelner Eintrag erzeugt. Wenn "
+"dein Kunde also zwei Varianten des selben Produktes kauft, werden auch zwei "
+"Codes zurück erwartet."
+
+#: admin/partials/helpdesc.php:11
+msgid "Every product set submitted to API has following structure:"
+msgstr "Jeder Produktdatensatz, der übertragen wird, hat den folgenden Aufbau:"
+
+#: admin/partials/helpdesc.php:12 admin/partials/helpdesc.php:13
+#: admin/partials/helpdesc.php:14 admin/partials/helpdesc.php:15
+#: admin/partials/helpdesc.php:16
+msgid "submitting"
+msgstr "datensatz"
+
+#: admin/partials/helpdesc.php:13
+msgid "Items order ID"
+msgstr "Bestellnummer des Elements"
+
+#: admin/partials/helpdesc.php:14
+msgid "Items product ID"
+msgstr "Produkt-ID des Elements"
+
+#: admin/partials/helpdesc.php:15
+msgid "Items variation ID"
+msgstr "Varianten-ID des Elements"
+
+#: admin/partials/helpdesc.php:16
+msgid "Items sku"
+msgstr "Artikelnummer des Elements"
+
+#: admin/partials/helpdesc.php:17
+msgid "Complete set sent to your API example (click to show)"
+msgstr ""
+"Beispiel für einen kompletten Datensatz, der an die API geschickt wird "
+"(Klicke zum Anzeigen)"
+
+#: admin/partials/helpdesc.php:45
+msgid "Data expected"
+msgstr "Daten, die zurückerwartet werden"
+
+#: admin/partials/helpdesc.php:46
+msgid ""
+"The expected returning data for XML or JSON is a set of data with same "
+"length like product set and <code>n</code> elements with key <code>code</"
+"code> and a string as value that holds the full information that should be "
+"returned as code:"
+msgstr ""
+"Die erwartete Rückgabe für XML oder JSON ist ein Datensatz mit der selben "
+"Länge wie der Produktdatensatz und <code>n</code> Elementen mit dem "
+"Schlüsselwert <code>code</code> und einem string als Wert, der die komplette "
+"Information zum Code enthält, die dem Benutzer angezeigt werden soll:"
+
+#: admin/partials/helpdesc.php:47 admin/partials/helpdesc.php:48
+#: admin/partials/helpdesc.php:49 admin/partials/helpdesc.php:50
+msgid "returning"
+msgstr "rueckgabe"
+
+#: admin/partials/helpdesc.php:51
+msgid ""
+"The expected returning data for string format is just a list of codes, "
+"separeted by semikolon:"
+msgstr ""
+"Die erwartete Rückgabe für einen STRING ist eine Liste von Codes, getrennt "
+"von einem Semikolon:"
+
+#: admin/partials/helpdesc.php:53
+msgid "Complete set returned from API example (click to show)"
+msgstr ""
+"Beispiel für einen kompletten Datensatz von der API (Klicke zum Anzeigen)"
+
+#: admin/partials/new-code.php:6
+msgid "Getting Codes"
+msgstr "Codes abrufen"
+
+#: admin/partials/new-code.php:7
+msgid "Tell API, where from and how to request a new code."
+msgstr "Definiere hier, woher - und wie - die API neue Codes anfordern kann."
+
+#: admin/partials/new-code.php:8
+msgid "Is an authentication to API required?"
+msgstr "Ist eine Authentifizierung erforderlich?"
+
+#: admin/partials/new-code.php:13
+msgid "Authentication Type"
+msgstr "Authentifizierungstyp"
+
+#: admin/partials/new-code.php:18
+msgid "none"
+msgstr "Keine"
+
+#: admin/partials/new-code.php:19
+msgid "Basic Authentication"
+msgstr "Standardauthentifizierung"
+
+#: admin/partials/new-code.php:20
+msgid "API-Key Authentication"
+msgstr "API-Schlüssel-Authentifizierung"
+
+#: admin/partials/new-code.php:33
+msgid ""
+"Basic authentication works as known `user:pass` combination, API-Key-"
+"Authentication works with HTTP-header `api-client` and HTTP-header `api-key`"
+msgstr ""
+"Die Standardauthentifizierung arbeitet mit der bekannten `benutzer:passwort` "
+"Kombination, die API-Schlüssel-Authentifizierung schickt die HTTP-Header "
+"`api-client` und `api-key`"
+
+#: admin/partials/new-code.php:38
+msgid "Auth user"
+msgstr "Auth Benutzer"
+
+#: admin/partials/new-code.php:39
+msgid "API-Client"
+msgstr "API-Benutzername"
+
+#: admin/partials/new-code.php:50
+msgid "Auth pass"
+msgstr "Auth Passwort"
+
+#: admin/partials/new-code.php:51
+msgid "API-Key"
+msgstr "API-Schlüssel"
+
+#: admin/partials/new-code.php:67
+msgid "API-Action"
+msgstr "API-Aktion"
+
+#: admin/partials/new-code.php:75
+msgid ""
+"API-Action is an optional parameter telling the API, what shall be returned, "
+"value will be sent as parameter `action` in JSON-string or fieldname "
+"`action` in POST-array."
+msgstr ""
+"Der \"API-Aktion\"-Parameter wird als `action`-Variable mitgeschickt und "
+"kann der API so sagen, welche Daten zurückgeschickt werden sollen."
+
+#: admin/partials/new-code.php:80
+msgid "API-URL"
+msgstr "API-URL"
+
+#: admin/partials/new-code.php:88
+msgid "URL, that the cURL-request will be sent to."
+msgstr "URL, an die die Anforderung gesendet wird."
+
+#: includes/class-woo-checkout-code-api-loader.php:233
+msgid "Returning data had to much values"
+msgstr "Der zurückgegebene Datensatz hatte zu viele Werte"
+
+#: includes/class-woo-checkout-code-api-loader.php:253
+msgid "Returning data count did not match requestest data count"
+msgstr "Die zurückgegebenen Daten entsprachen nicht der erwarteten Datenmenge"
+
+#: includes/class-woo-checkout-code-api-loader.php:263
+#: includes/class-woo-checkout-code-api-loader.php:279
+msgid "There was no data returned"
+msgstr "Es wurden keine Daten zurückgegeben"
+
+#: includes/class-woo-checkout-code-api-loader.php:270
+msgid "Strings as return are not supported yet"
+msgstr "STRINGS sind als Rückgabewert derzeit noch nicht implementiert"
+
+#: includes/class-woo-checkout-code-api-loader.php:287
+msgid "Codelist API got no host to connect"
+msgstr "Es wurde kein Host definiert, zu dem sich die API verbinden soll"
+
+#: templates/emails/customer-completed-order-codelist.php:13
+#: templates/emails/plain/customer-completed-order-codelist.php:15
+#: templates/order/order-codelist.php:14
+msgid "Your codes"
+msgstr "Deine Codes"
+
+#: templates/emails/customer-completed-order-codelist.php:18
+#: templates/emails/plain/customer-completed-order-codelist.php:19
+#: templates/order/order-codelist.php:18
+msgid "Product"
+msgstr "Produkt"
+
+#: templates/emails/customer-completed-order-codelist.php:19
+#: templates/emails/plain/customer-completed-order-codelist.php:19
+#: templates/order/order-codelist.php:19
+msgid "Code"
+msgstr "Code"
+
+#: templates/order/order-codelist-error.php:14
+msgid "Error requesting codelist API"
+msgstr "Fehler beim Anfordern der Codelisten-API"
+
+#: woo-checkout-code-api.php:72
+msgid "Code API for WooCommerce Checkout"
+msgstr "Code API für die WooCommerce Bestellseite"
+
+#: woo-checkout-code-api.php:73
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: woo-checkout-code-api.php:78
+#, php-format
+msgid "%1$s is ineffective as it requires %2$s to be installed and active."
+msgstr "%1$s benötigt eine aktive Installation von %2$s."
+
+#. Plugin Name of the plugin/theme
+msgid "Code API for Checkout in WooCommerce"
+msgstr "Code API für die WooCommerce Bestellseite"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds support for returning digital codes from external service "
+"after successful payment provided by an API"
+msgstr ""
+"Dieses Plugin erweitert WooCommerce um die Möglichkeit, digitale Codes über "
+"eine externe API abzurufen und dem Käufer nach Kaufabschluss bereit zu "
+"stellen"
+
+#. Author of the plugin/theme
+msgid "appleuser"
+msgstr "appleuser"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/appleuser"
+msgstr "https://profiles.wordpress.org/appleuser"
+
+#~ msgid "Thank You Page"
+#~ msgstr "Danke-Seite"
+
+#~ msgid "Checkout page"
+#~ msgstr "Kasse"
+
+#~ msgid "Setup whether the code list should be shown after finished checkout."
+#~ msgstr ""
+#~ "Aktiviere die Anzeige der Codeliste nach dem erfolgreichen Bezahlvorgang."
+
+#~ msgid ""
+#~ "You should only show code on checkout page, if all payment options are "
+#~ "verified."
+#~ msgstr ""
+#~ "Du solltest die Codeliste auf der Abschlussseite der Bestellung nur "
+#~ "anzeigen lassen, wenn du sicher sein kannst, das alle deine "
+#~ "Bezahlvarianten definitiv zu einer Bezahlung geführt haben."

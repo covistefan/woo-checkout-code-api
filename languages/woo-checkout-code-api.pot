@@ -1,0 +1,343 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Code API for Checkout in WooCommerce\n"
+"POT-Creation-Date: 2020-02-18 15:38+0100\n"
+"PO-Revision-Date: 2020-02-18 14:25+0100\n"
+"Last-Translator: appleuser\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-checkout-code-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-woo-checkout-code-api-admin.php:110
+msgid "Woo Code API"
+msgstr ""
+
+#: admin/header/plugin-footer.php:6
+msgid "Save"
+msgstr ""
+
+#: admin/header/plugin-header.php:12
+msgid "General settings"
+msgstr ""
+
+#: admin/header/plugin-header.php:13
+msgid "Getting codes"
+msgstr ""
+
+#: admin/header/plugin-header.php:14 admin/partials/embed-pref.php:6
+msgid "Embedding preferences"
+msgstr ""
+
+#: admin/header/plugin-header.php:15 admin/partials/helpdesc.php:7
+msgid "Helpdesc"
+msgstr ""
+
+#: admin/partials/embed-pref.php:7
+msgid "You can define here, which pages/elements will show up the codelist."
+msgstr ""
+
+#: admin/partials/embed-pref.php:12
+msgid "Checkout page"
+msgstr ""
+
+#: admin/partials/embed-pref.php:20
+msgid "Setup whether the code list should be shown after finished checkout."
+msgstr ""
+
+#: admin/partials/embed-pref.php:25
+msgid "Metabox"
+msgstr ""
+
+#: admin/partials/embed-pref.php:33
+msgid ""
+"Setup whether the code list should be shown in order details page for admin."
+msgstr ""
+
+#: admin/partials/embed-pref.php:38
+msgid "Email support"
+msgstr ""
+
+#: admin/partials/embed-pref.php:46
+msgid ""
+"Setup whether the code list should be sent by email within the order "
+"confirmation."
+msgstr ""
+
+#: admin/partials/general-settings.php:6
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/general-settings.php:11
+msgid "API usage"
+msgstr ""
+
+#: admin/partials/general-settings.php:20
+msgid "Enable or disable code API usage for WooCommerce Checkout"
+msgstr ""
+
+#: admin/partials/general-settings.php:26
+msgid "Select data submit type"
+msgstr ""
+
+#: admin/partials/general-settings.php:45
+msgid "Choose what method should be used to send data to API"
+msgstr ""
+
+#: admin/partials/general-settings.php:50
+msgid "Select data submit format"
+msgstr ""
+
+#: admin/partials/general-settings.php:69
+msgid ""
+"POST - data will be submitted as post values, JSON - ONE single string with "
+"a JSON-encoded dataset will be submitted"
+msgstr ""
+
+#: admin/partials/general-settings.php:74
+msgid "Select data return type"
+msgstr ""
+
+#: admin/partials/general-settings.php:92
+msgid "Choose what kind of data you expext to be returned from API"
+msgstr ""
+
+#: admin/partials/helpdesc.php:8
+msgid "How does Woo Code API work?"
+msgstr ""
+
+#: admin/partials/helpdesc.php:9
+msgid ""
+"Woo Code API submits your product data to an external server you defined in "
+"\"Get Codes\""
+msgstr ""
+
+#: admin/partials/helpdesc.php:10
+msgid "Data submitted"
+msgstr ""
+
+#: admin/partials/helpdesc.php:11
+msgid ""
+"If API-Key-Authentification is set, the params <code>api-client</code> and "
+"<code>api-token</code> will be sent as <code>CURLOPT_HTTPHEADER</code> with "
+"their associated data."
+msgstr ""
+
+#: admin/partials/helpdesc.php:11
+msgid "If an action param is set, it will be submitted as <code>action</code>."
+msgstr ""
+
+#: admin/partials/helpdesc.php:11
+msgid ""
+"For <strong>each</strong> product will be created a single entry. If your "
+"customer bought 2 variants of the same product, 2 codes expected to be "
+"returned."
+msgstr ""
+
+#: admin/partials/helpdesc.php:11
+msgid "Every product set submitted to API has following structure:"
+msgstr ""
+
+#: admin/partials/helpdesc.php:12 admin/partials/helpdesc.php:13
+#: admin/partials/helpdesc.php:14 admin/partials/helpdesc.php:15
+#: admin/partials/helpdesc.php:16
+msgid "submitting"
+msgstr ""
+
+#: admin/partials/helpdesc.php:13
+msgid "Items order ID"
+msgstr ""
+
+#: admin/partials/helpdesc.php:14
+msgid "Items product ID"
+msgstr ""
+
+#: admin/partials/helpdesc.php:15
+msgid "Items variation ID"
+msgstr ""
+
+#: admin/partials/helpdesc.php:16
+msgid "Items sku"
+msgstr ""
+
+#: admin/partials/helpdesc.php:17
+msgid "Complete set sent to your API example (click to show)"
+msgstr ""
+
+#: admin/partials/helpdesc.php:45
+msgid "Data expected"
+msgstr ""
+
+#: admin/partials/helpdesc.php:46
+msgid ""
+"The expected returning data for XML or JSON is a set of data with same "
+"length like product set and <code>n</code> elements with key <code>code</"
+"code> and a string as value that holds the full information that should be "
+"returned as code:"
+msgstr ""
+
+#: admin/partials/helpdesc.php:47 admin/partials/helpdesc.php:48
+#: admin/partials/helpdesc.php:49 admin/partials/helpdesc.php:50
+msgid "returning"
+msgstr ""
+
+#: admin/partials/helpdesc.php:51
+msgid ""
+"The expected returning data for string format is just a list of codes, "
+"separeted by semikolon:"
+msgstr ""
+
+#: admin/partials/helpdesc.php:53
+msgid "Complete set returned from API example (click to show)"
+msgstr ""
+
+#: admin/partials/new-code.php:6
+msgid "Getting Codes"
+msgstr ""
+
+#: admin/partials/new-code.php:7
+msgid "Tell API, where from and how to request a new code."
+msgstr ""
+
+#: admin/partials/new-code.php:8
+msgid "Is an authentication to API required?"
+msgstr ""
+
+#: admin/partials/new-code.php:13
+msgid "Authentication Type"
+msgstr ""
+
+#: admin/partials/new-code.php:18
+msgid "none"
+msgstr ""
+
+#: admin/partials/new-code.php:19
+msgid "Basic Authentication"
+msgstr ""
+
+#: admin/partials/new-code.php:20
+msgid "API-Key Authentication"
+msgstr ""
+
+#: admin/partials/new-code.php:33
+msgid ""
+"Basic authentication works as known `user:pass` combination, API-Key-"
+"Authentication works with HTTP-header `api-client` and HTTP-header `api-key`"
+msgstr ""
+
+#: admin/partials/new-code.php:38
+msgid "Auth user"
+msgstr ""
+
+#: admin/partials/new-code.php:39
+msgid "API-Client"
+msgstr ""
+
+#: admin/partials/new-code.php:50
+msgid "Auth pass"
+msgstr ""
+
+#: admin/partials/new-code.php:51
+msgid "API-Key"
+msgstr ""
+
+#: admin/partials/new-code.php:67
+msgid "API-Action"
+msgstr ""
+
+#: admin/partials/new-code.php:75
+msgid ""
+"API-Action is an optional parameter telling the API, what shall be returned, "
+"value will be sent as parameter `action` in JSON-string or fieldname "
+"`action` in POST-array."
+msgstr ""
+
+#: admin/partials/new-code.php:80
+msgid "API-URL"
+msgstr ""
+
+#: admin/partials/new-code.php:88
+msgid "URL, that the cURL-request will be sent to."
+msgstr ""
+
+#: includes/class-woo-checkout-code-api-loader.php:224
+msgid "Returning data had to much values"
+msgstr ""
+
+#: includes/class-woo-checkout-code-api-loader.php:244
+msgid "Returning data count did not match requestest data count"
+msgstr ""
+
+#: includes/class-woo-checkout-code-api-loader.php:254
+#: includes/class-woo-checkout-code-api-loader.php:270
+msgid "There was no data returned"
+msgstr ""
+
+#: includes/class-woo-checkout-code-api-loader.php:278
+msgid "Codelist API got no host to connect"
+msgstr ""
+
+#: templates/emails/customer-completed-order-codelist.php:13
+#: templates/emails/plain/customer-completed-order-codelist.php:15
+#: templates/order/order-codelist.php:14
+msgid "Your codes"
+msgstr ""
+
+#: templates/emails/customer-completed-order-codelist.php:18
+#: templates/emails/plain/customer-completed-order-codelist.php:19
+#: templates/order/order-codelist.php:18
+msgid "Product"
+msgstr ""
+
+#: templates/emails/customer-completed-order-codelist.php:19
+#: templates/emails/plain/customer-completed-order-codelist.php:19
+#: templates/order/order-codelist.php:19
+msgid "Code"
+msgstr ""
+
+#: templates/order/order-codelist-error.php:14
+msgid "Error requesting codelist API"
+msgstr ""
+
+#: woo-checkout-code-api.php:72
+msgid "Code API for WooCommerce Checkout"
+msgstr ""
+
+#: woo-checkout-code-api.php:73
+msgid "WooCommerce"
+msgstr ""
+
+#: woo-checkout-code-api.php:78
+#, php-format
+msgid "%1$s is ineffective as it requires %2$s to be installed and active."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Code API for Checkout in WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds support for returning digital codes from external service "
+"after successful payment provided by an API"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "appleuser"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/appleuser"
+msgstr ""
