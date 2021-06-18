@@ -15,8 +15,8 @@ defined( 'ABSPATH' ) || exit;
                     <label>
                         <select name="wcca_checkout_status">
                             <option value=""><?php _e( 'Dont show', WCCA_TEXT_DOMAIN ); ?></option>
-                            <option value="before" <?php echo ($wcca_checkout_status=='before')?'selected="selected"':''; ?>><?php _e( 'Show before order details', WCCA_TEXT_DOMAIN ); ?></option>
-                            <option value="after" <?php echo ($wcca_checkout_status=='after')?'selected="selected"':''; ?>><?php _e( 'Show after order details', WCCA_TEXT_DOMAIN ); ?></option>
+                            <option value="before" <?php echo esc_html(($wcca_checkout_status=='before')?'selected="selected"':''); ?>><?php _e( 'Show before order details', WCCA_TEXT_DOMAIN ); ?></option>
+                            <option value="after" <?php echo esc_html(($wcca_checkout_status=='after')?'selected="selected"':''); ?>><?php _e( 'Show after order details', WCCA_TEXT_DOMAIN ); ?></option>
                         </select>
                     </label>
                 </td>

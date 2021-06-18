@@ -9,14 +9,17 @@
 
 defined( 'ABSPATH' ) || exit;
 
-$output = array();
-
 echo "\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n";
-echo __('Your codes', WCCA_TEXT_DOMAIN);
+echo esc_attr__('Your codes', WCCA_TEXT_DOMAIN);
 echo "\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n\n";
 
+$output = array();
 foreach ($dataset['apidata'] AS $adk => $adv) {
-    $output[] = __('Product', WCCA_TEXT_DOMAIN).": ".$adv['product_name'].", ".$adv['sku']."\n".__('Code', WCCA_TEXT_DOMAIN).": ".$adv['code']."\n"; 
+    $output[] = esc_attr__('Product', WCCA_TEXT_DOMAIN).": ".
+        esc_attr($adv['product_name']).", ".
+        esc_attr($adv['sku'])."\n".
+        esc_attr__('Code', WCCA_TEXT_DOMAIN).": ".
+        esc_attr($adv['code'])."\n"; 
 }
 
 echo implode("----------------------------------------\n", $output)."\n\n";

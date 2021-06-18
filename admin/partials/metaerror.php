@@ -2,4 +2,4 @@
 // Exit if accessed directly
 defined( 'ABSPATH' ) || exit;
 ?>
-<p><?php echo $dataset['message']; ?></p>
+<p><?php echo esc_attr($dataset['message']); ?></p>

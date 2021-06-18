@@ -4,15 +4,16 @@ if (!defined('ABSPATH')) { exit; }
 
 $plugin_name = WCCA_PLUGIN_NAME;
 $plugin_version = WCCA_PLUGIN_VERSION;
+
 ?>
 <div id="cqmain">
     <div class="all-pad">
         <header class="cq-header"></header>
         <ul class="tablist">
-            <li <?php echo (isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-general-settings')?'class="active"':''; ?>><a href="#wcca-general-settings"><?php _e("General settings", WCCA_TEXT_DOMAIN); ?></a></li>
-            <li <?php echo (isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-new-code')?'class="active"':''; ?>><a href="#wcca-new-code"><?php _e("Getting codes", WCCA_TEXT_DOMAIN); ?></a></li>
-            <li <?php echo (isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-embed-pref')?'class="active"':''; ?>><a href="#wcca-embed-pref"><?php _e("Embedding preferences", WCCA_TEXT_DOMAIN); ?></a></li>
-            <li <?php echo (isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-helpdesc')?'class="active"':''; ?>><a href="#wcca-helpdesc"><?php _e("Helpdesc", WCCA_TEXT_DOMAIN); ?></a></li>
+            <li <?php echo esc_html((isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-general-settings')?'class="active"':''); ?>><a href="#wcca-general-settings"><?php _e("General settings", WCCA_TEXT_DOMAIN); ?></a></li>
+            <li <?php echo esc_html((isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-new-code')?'class="active"':''); ?>><a href="#wcca-new-code"><?php _e("Getting codes", WCCA_TEXT_DOMAIN); ?></a></li>
+            <li <?php echo esc_html((isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-embed-pref')?'class="active"':''); ?>><a href="#wcca-embed-pref"><?php _e("Embedding preferences", WCCA_TEXT_DOMAIN); ?></a></li>
+            <li <?php echo esc_html((isset($_POST['tablist']) && sanitize_text_field( $_POST['tablist'] )=='#wcca-helpdesc')?'class="active"':''); ?>><a href="#wcca-helpdesc"><?php _e("Helpdesc", WCCA_TEXT_DOMAIN); ?></a></li>
         </ul>
         <form method="POST" name="" action="">
             <input type="hidden" name="tablist" id="tablist-data" value="" />

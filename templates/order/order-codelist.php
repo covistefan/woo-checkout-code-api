@@ -24,9 +24,9 @@ defined( 'ABSPATH' ) || exit;
             
             foreach ( $dataset['apidata'] as $item ) {
                 echo '<tr class="woocommerce-table__line-item order_item">';
-                echo '<td class="woocommerce-table__product-name product-name">'.$item['product_name'].', '.$item['sku'].'</td>';
+                echo '<td class="woocommerce-table__product-name product-name">'.esc_attr($item['product_name']).', '.esc_attr($item['sku']).'</td>';
                 echo '<td class="woocommerce-table__product-total product-total">';
-                echo '<code class="woocommerce-code-view">'.$item['code'].'</code>';
+                echo '<code class="woocommerce-code-view">'.esc_attr($item['code']).'</code>';
                 echo '</td>';
                 echo '</tr>';
             }

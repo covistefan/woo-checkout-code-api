@@ -23,8 +23,8 @@ defined( 'ABSPATH' ) || exit;
             <?php foreach ($dataset['apidata'] AS $adk => $adv) { ?>
             <tr class="order_item">
                 <td class="td" style="color: #636363; border: 1px solid #e5e5e5; padding: 12px; text-align: left; vertical-align: middle; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif; word-wrap: break-word;">
-                    <?php echo $adv['product_name']; ?>, <?php echo $adv['sku']; ?> </td>
-                <td class="td" style="color: #636363; border: 1px solid #e5e5e5; padding: 12px; text-align: left; vertical-align: middle; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;"><?php echo $adv['code']; ?></td>
+                    <?php echo esc_attr($adv['product_name']); ?>, <?php echo esc_attr($adv['sku']); ?> </td>
+                <td class="td" style="color: #636363; border: 1px solid #e5e5e5; padding: 12px; text-align: left; vertical-align: middle; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;"><?php echo esc_attr($adv['code']); ?></td>
             </tr>
             <?php } ?>
         </tbody>
