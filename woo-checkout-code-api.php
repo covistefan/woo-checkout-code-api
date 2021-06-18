@@ -4,7 +4,7 @@
  * Plugin Name:       Woo Checkout Code API
  * Plugin URI:        https://wordpress.org/plugins/woo-checkout-code-api/
  * Description:       This plugin adds support in WooCommerce for returning digital codes from external service after successful payment provided by an API
- * Version:           1.6.1
+ * Version:           1.7
  * Author:            appleuser
  * Author URI:        https://profiles.wordpress.org/appleuser
  * License:           GPL-2.0+
@@ -13,7 +13,7 @@
  * Domain Path:       /languages
  *
  * WC requires at least: 4.4
- * WC tested up to: 5.0
+ * WC tested up to: 5.4
  */
 
 defined( 'ABSPATH' ) || exit;
