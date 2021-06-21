@@ -22,4 +22,4 @@ foreach ($dataset['apidata'] AS $adk => $adv) {
         esc_attr($adv['code'])."\n"; 
 }
 
-echo implode("----------------------------------------\n", $output)."\n\n";
+echo esc_attr(implode("----------------------------------------\n", $output)."\n\n");

@@ -4,7 +4,7 @@ Tags: woo, woocommerce, shop, onlineshop, checkout, order, payment, api, codes, 
 Requires at least: 5.2
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 1.7
+Stable tag: 1.7.1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5762TWVRT6RQ4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
